@@ -14,6 +14,7 @@ namespace WebApplication_Mvc
     {
         public static void Main(string[] args)
         {
+            CreateWebHostBuilder(args).Build().Run();
             Console.Write("Olá mundo!");
             Console.ReadLine();
         }
